@@ -1,0 +1,73 @@
+Setting up the automatic game library - one time, about 15 minutes
+=====================================================================
+
+COST: FREE. Nothing here needs a card or a paid plan.
+
+How it stays free:
+  - Most games: the robot reads the controls table on StrategyWiki
+    directly (PlayStation button, PC key, action). No AI, no account.
+  - Games without a table: it asks Google's Gemini AI on its free tier.
+    That needs a free key (step 1). Skip step 1 and those games simply
+    wait - everything else still works.
+  - The robot runs on GitHub Actions, free for public projects.
+
+You need: your GitHub account (madebysilverback), and optionally a Google
+account for the free Gemini key.
+
+
+1. (OPTIONAL) GET A FREE GEMINI KEY
+   - Go to aistudio.google.com and sign in with a Google account.
+   - Click "Get API key" > "Create API key". Don't add billing - the free
+     tier is enough. Copy the key.
+   - Note: on the free tier Google may use what's sent to improve its
+     products. The robot only ever sends public controls info.
+
+2. CREATE THE LIBRARY ON GITHUB
+   - github.com > "+" (top right) > New repository.
+   - Name: controlbridge-profiles   (exactly this - the app looks for it)
+   - Choose PUBLIC (the app downloads from it, and GitHub's robot is free
+     for public projects). Click Create repository.
+
+3. UPLOAD THESE FILES
+   - On the new page click "uploading an existing file".
+   - Open the unzipped controlbridge-profiles folder, select EVERYTHING
+     inside it (including the ".github" folder) and drag it onto the page.
+   - Click "Commit changes".
+
+4. (OPTIONAL) GIVE THE ROBOT YOUR FREE GEMINI KEY
+   - In the repository: Settings > Secrets and variables > Actions >
+     New repository secret.
+   - Name: GEMINI_API_KEY
+   - Secret: paste your key. Click Add secret.
+   - If Google renames its models and the robot reports a model error,
+     add a second secret GEMINI_MODEL with the current "Flash" model name
+     from aistudio.google.com.
+
+5. LET THE ROBOT SAVE ITS WORK
+   - Settings > Actions > General > scroll to "Workflow permissions".
+   - Choose "Read and write permissions". Click Save.
+
+6. FIRST RUN
+   - Actions tab > "Player feedback" > Run workflow > Run workflow.
+     (This creates the labels used for reports. Takes under a minute.)
+   - Actions tab > "Profile factory" > Run workflow. Type 5 in the box,
+     then Run workflow. Takes about 10 minutes.
+   - When it shows a green tick, open library/profiles: you'll see the
+     new games. ControlBridge downloads them next time it starts.
+
+After that it runs by itself every night, adding 20 games a time. To make
+more or fewer per night, change "20" in .github/workflows/factory.yml.
+
+
+KEEPING AN EYE ON IT
+--------------------
+- factory/state.json lists every game it made, and why it skipped others
+  (usually: no public controls information, or "add the free Gemini key").
+- Each layout says how it was made: "read from a public controls table"
+  or "made with AI".
+- The Issues tab shows player reports. You don't need to do anything:
+  after 2 reports for the same game the robot rebuilds it and closes them
+  (this part needs the free Gemini key).
+- Posts labelled "needs-review" are shared profiles for games already in
+  the library. Compare them and keep the better one when you have time.
+- Want to stop it? Actions tab > Profile factory > "..." > Disable workflow.

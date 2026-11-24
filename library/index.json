@@ -1,0 +1,19 @@
+{
+ "version": 1,
+ "updated": "2026-11-24T17:28:45Z",
+ "count": 1,
+ "profiles": [
+  {
+   "id": "splinter_cell_pandora_tomorrow",
+   "name": "Splinter Cell: Pandora Tomorrow",
+   "file": "profiles/splinter_cell_pandora_tomorrow.json",
+   "sha256": "22d1c76ee60a3b6d640cf7d59c8054a0d6d68ec15a3ec2a008e848e6e3bc0ff0",
+   "exe": [
+    "SplinterCell2.exe"
+   ],
+   "steam_appid": "3929740",
+   "status": "made with AI",
+   "updated": "2026-11-24"
+  }
+ ]
+}

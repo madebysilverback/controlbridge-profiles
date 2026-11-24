@@ -1,0 +1,195 @@
+{
+  "id": "splinter_cell_pandora_tomorrow",
+  "format": 2,
+  "status": "made with AI",
+  "updated": "2026-11-24",
+  "name": "Splinter Cell: Pandora Tomorrow",
+  "playstation_version": "PS2 (2004)",
+  "exe": [
+    "SplinterCell2.exe"
+  ],
+  "steam_appid": "3929740",
+  "overlay_button": "ps",
+  "game_files": {
+    "folder_contains": [
+      "pandora"
+    ],
+    "text_folders": [
+      "offline/system",
+      "online/system",
+      "system"
+    ]
+  },
+  "_note": "Library profile. Keys are read from your own game files when the game starts; default_key is used if a key isn't found.",
+  "buttons": {
+    "triangle": {
+      "action": "Jump",
+      "commands": [
+        "Jump"
+      ],
+      "default_key": "LSHIFT"
+    },
+    "circle": {
+      "action": "Crouch / roll",
+      "commands": [
+        "Duck",
+        "Crouch"
+      ],
+      "default_key": "C"
+    },
+    "cross": {
+      "action": "Interact",
+      "commands": [
+        "Interaction",
+        "Interact",
+        "Use"
+      ],
+      "default_key": "SPACE"
+    },
+    "square": {
+      "action": "Quick inventory",
+      "commands": [
+        "QuickInventory",
+        "Inventory"
+      ],
+      "default_key": "LCTRL"
+    },
+    "r1": {
+      "action": "Fire",
+      "commands": [
+        "Fire"
+      ],
+      "default_key": "MOUSE_LEFT"
+    },
+    "l1": {
+      "action": "Secondary fire",
+      "commands": [
+        "AltFire"
+      ],
+      "default_key": "MOUSE_RIGHT"
+    },
+    "r2": {
+      "action": "Draw weapon",
+      "commands": [
+        "DrawWeapon",
+        "UseWeapon"
+      ],
+      "default_key": "NUMPAD1"
+    },
+    "l2": {
+      "action": "Whistle",
+      "commands": [
+        "Whistle"
+      ],
+      "default_key": "V"
+    },
+    "l3": {
+      "action": "Back to wall",
+      "commands": [
+        "BackToWall"
+      ],
+      "default_key": "Q"
+    },
+    "r3": {
+      "action": "Sniper mode",
+      "commands": [
+        "Snipe",
+        "SniperMode"
+      ],
+      "default_key": "MOUSE_MIDDLE"
+    },
+    "dpad_left": {
+      "action": "Night vision",
+      "commands": [
+        "NightVision"
+      ],
+      "default_key": "DELETE"
+    },
+    "dpad_right": {
+      "action": "Thermal vision",
+      "commands": [
+        "ThermalVision",
+        "HeatVision"
+      ],
+      "default_key": "END"
+    },
+    "dpad_up": {
+      "action": "Zoom in",
+      "commands": [
+        "ZoomIn"
+      ],
+      "default_key": "PAGEUP"
+    },
+    "dpad_down": {
+      "action": "Zoom out",
+      "commands": [
+        "ZoomOut"
+      ],
+      "default_key": "PAGEDOWN"
+    },
+    "options": {
+      "action": "Pause menu",
+      "commands": [
+        "ShowMainMenu",
+        "MainMenu",
+        "Pause"
+      ],
+      "default_key": "ESCAPE"
+    },
+    "create": {
+      "action": "OPSAT (objectives)",
+      "commands": [
+        "FullInventory",
+        "OPSAT"
+      ],
+      "default_key": "F1"
+    },
+    "touchpad": {
+      "action": "Quicksave (PC extra)",
+      "commands": [
+        "QuickSave"
+      ],
+      "default_key": "F5"
+    },
+    "ps": {
+      "action": "Hold: show this button list",
+      "default_key": "NONE"
+    }
+  },
+  "left_stick": {
+    "mode": "keys",
+    "up_commands": [
+      "MoveForward"
+    ],
+    "down_commands": [
+      "MoveBackward"
+    ],
+    "left_commands": [
+      "StrafeLeft",
+      "MoveLeft"
+    ],
+    "right_commands": [
+      "StrafeRight",
+      "MoveRight"
+    ],
+    "up_default": "W",
+    "down_default": "S",
+    "left_default": "A",
+    "right_default": "D",
+    "deadzone": 0.2,
+    "diagonal_threshold": 0.38,
+    "analog_speed": {
+      "_note": "Like the PS2: push the stick further to move faster. The PC game uses the mouse wheel for speed, so the app scrolls it for you. 'levels' = how many speed steps the game has; raise or lower it if full tilt is not top speed.",
+      "enabled": true,
+      "levels": 5,
+      "rezero_on_release": true
+    }
+  },
+  "right_stick": {
+    "mode": "mouse",
+    "sensitivity": 18,
+    "curve": 2.0,
+    "deadzone": 0.12,
+    "invert_y": false
+  }
+}
