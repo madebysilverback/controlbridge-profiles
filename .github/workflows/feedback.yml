@@ -1,0 +1,42 @@
+name: Player feedback
+
+on:
+  issues:
+    types: [opened, labeled]
+  schedule:
+    - cron: "41 */6 * * *"        # every 6 hours
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: library-writes
+  cancel-in-progress: false
+
+jobs:
+  feedback:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Handle shared profiles and wrong-button reports
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python factory/feedback.py
+
+      - name: Publish
+        run: |
+          git config user.name "ControlBridge factory"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add library factory/state.json
+          git diff --cached --quiet || git commit -m "Library: player feedback $(date -u +%F)"
+          git pull --rebase
+          git push
