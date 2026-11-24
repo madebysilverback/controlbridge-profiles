@@ -1,8 +1,44 @@
 {
  "version": 1,
- "updated": "2026-11-24T17:54:13Z",
- "count": 1,
+ "updated": "2026-11-24T18:03:17Z",
+ "count": 4,
  "profiles": [
+  {
+   "id": "grand_theft_auto_iii",
+   "name": "Grand Theft Auto III",
+   "file": "profiles/grand_theft_auto_iii.json",
+   "sha256": "61227bec7674c851fa052333cb7c08a12b08051b5ecb6a23e6d962c581baec2d",
+   "exe": [
+    "gta3.exe"
+   ],
+   "steam_appid": "12100",
+   "status": "read from a public controls table",
+   "updated": "2026-11-24"
+  },
+  {
+   "id": "grand_theft_auto_san_andreas",
+   "name": "Grand Theft Auto: San Andreas",
+   "file": "profiles/grand_theft_auto_san_andreas.json",
+   "sha256": "8c10b8b414b69f75d34e1efc338ab27adf72b6470abea481095cde76feebc17d",
+   "exe": [
+    "gta-sa.exe"
+   ],
+   "steam_appid": "12120",
+   "status": "read from a public controls table",
+   "updated": "2026-11-24"
+  },
+  {
+   "id": "grand_theft_auto_vice_city",
+   "name": "Grand Theft Auto: Vice City",
+   "file": "profiles/grand_theft_auto_vice_city.json",
+   "sha256": "473d2cd5056c31d555f2d4ed192575574a7381fe2d070b38daefaa9e8249832e",
+   "exe": [
+    "gta-vc.exe"
+   ],
+   "steam_appid": "12110",
+   "status": "read from a public controls table",
+   "updated": "2026-11-24"
+  },
   {
    "id": "splinter_cell_pandora_tomorrow",
    "name": "Splinter Cell: Pandora Tomorrow",

@@ -1,0 +1,121 @@
+{
+  "id": "grand_theft_auto_iii",
+  "format": 2,
+  "status": "read from a public controls table",
+  "updated": "2026-11-24",
+  "name": "Grand Theft Auto III",
+  "playstation_version": "PS2",
+  "exe": [
+    "gta3.exe"
+  ],
+  "steam_appid": "12100",
+  "wikidata": "Q149106",
+  "overlay_button": "ps",
+  "config_hints": [],
+  "game_files": {
+    "folder_contains": [
+      "grand",
+      "theft"
+    ],
+    "text_folders": [
+      "system",
+      "System",
+      "Localization",
+      "localization"
+    ]
+  },
+  "_note": "Made automatically from a public controls table. Keys are read from your own game files when the game starts. Read from the controls table on StrategyWiki.",
+  "sources": {
+    "strategywiki": "https://strategywiki.org/wiki/Grand_Theft_Auto_III/Controls",
+    "pcgamingwiki": "https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_III"
+  },
+  "credits": "Controls from StrategyWiki (CC BY-SA 4.0); facts from PCGamingWiki. Layout licence: CC BY-SA 4.0.",
+  "native_controller_support": true,
+  "buttons": {
+    "cross": {
+      "action": "DescForward",
+      "commands": [
+        "Descforward"
+      ],
+      "default_key": "UP"
+    },
+    "l1": {
+      "action": "Desc Radio",
+      "commands": [
+        "DescRadio"
+      ],
+      "default_key": "INSERT"
+    },
+    "l3": {
+      "action": "Desc Horn",
+      "commands": [
+        "DescHorn"
+      ],
+      "default_key": "LSHIFT"
+    },
+    "create": {
+      "action": "Desc Change camera",
+      "commands": [
+        "DescChangeCamera"
+      ],
+      "default_key": "HOME"
+    },
+    "r1": {
+      "action": "Desc Handbrake",
+      "commands": [
+        "DescHandbrake"
+      ],
+      "default_key": "RCTRL"
+    },
+    "l2": {
+      "action": "Desc Look left",
+      "commands": [
+        "DescLookLeft"
+      ],
+      "default_key": "NUMPAD1"
+    },
+    "r2": {
+      "action": "Desc Look right",
+      "commands": [
+        "DescLookRight"
+      ],
+      "default_key": "NUMPAD2"
+    },
+    "options": {
+      "action": "Desc Pause menu",
+      "commands": [
+        "DescPauseMenu"
+      ],
+      "default_key": "ESCAPE"
+    },
+    "ps": {
+      "action": "Hold: show this button list",
+      "default_key": "NONE"
+    }
+  },
+  "left_stick": {
+    "mode": "keys",
+    "deadzone": 0.2,
+    "diagonal_threshold": 0.38,
+    "analog_speed": {
+      "enabled": false,
+      "levels": 5,
+      "rezero_on_release": true
+    },
+    "up_commands": [],
+    "up_default": "W",
+    "down_commands": [],
+    "down_default": "S",
+    "left_commands": [],
+    "left_default": "A",
+    "right_commands": [],
+    "right_default": "D"
+  },
+  "right_stick": {
+    "mode": "mouse",
+    "sensitivity": 18,
+    "curve": 2.0,
+    "deadzone": 0.12,
+    "invert_y": false
+  }
+}

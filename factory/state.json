@@ -1,5 +1,12 @@
 {
- "done": {},
+ "done": {
+  "grand_theft_auto_iii": "2026-11-24",
+  "grand_theft_auto_san_andreas": "2026-11-24",
+  "grand_theft_auto_vice_city": "2026-11-24"
+ },
  "rebuilds": {},
- "skipped": {}
+ "skipped": {
+  "half_life": "2026-11-24: Gemini API 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please",
+  "the_sims": "2026-11-24: The read operation timed out"
+ }
 }
