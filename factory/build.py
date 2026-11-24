@@ -128,6 +128,21 @@ def make_prompt(game, facts, reports=""):
         keys=", ".join(KEYS), buttons=", ".join(BUTTONS))
 
 
+COMMON_WORDS = {"the", "of", "and", "tom", "clancy", "clancys", "edition", "game", "remastered", "definitive",
+                "grand", "theft", "auto", "star", "wars", "final", "fantasy", "need", "for", "speed", "call", "duty"}
+ROMAN = {"ii": "2", "iii": "3", "iv": "4", "v": "5", "vi": "6", "vii": "7", "viii": "8", "ix": "9", "x": "10"}
+
+
+def folder_words(name):
+    """The most telling words of a game's name, for finding its folder when
+    the Steam ID doesn't match (e.g. 'San Andreas', not 'Grand Theft')."""
+    words = [w for w in re.split(r"[^a-z0-9]+", name.lower()) if w]
+    telling = [w for w in words if w not in COMMON_WORDS and (len(w) > 2 or w.isdigit() or w in ROMAN)]
+    # Steam folders often write numbers as digits ("Grand Theft Auto 3")
+    telling = [ROMAN.get(w, w) for w in telling]
+    return telling[-2:] or words[-1:]
+
+
 def from_table(game, facts, generation, buttons):
     """A profile straight from a StrategyWiki controls table - no AI needed."""
     reply = {"playstation_version": generation, "exe": facts.get("exes") or [],
@@ -179,7 +194,7 @@ def to_profile(game, facts, reply):
         "wikidata": game.get("qid"),
         "overlay_button": "ps",
         "config_hints": [str(h)[:200] for h in (reply.get("config_hints") or [])][:3],
-        "game_files": {"folder_contains": [w for w in re.split(r"[^a-z0-9]+", game["name"].lower()) if len(w) > 3][:2],
+        "game_files": {"folder_contains": folder_words(game["name"]),
                        "text_folders": ["system", "System", "Localization", "localization"]},
         "_note": "Made automatically with AI from public sources. Keys are read from your own game "
                  "files when the game starts. " + str(reply.get("notes", ""))[:200],
