@@ -1,3 +1,4 @@
+
 name: Profile factory
 
 on:
@@ -45,7 +46,10 @@ jobs:
       - name: Make profiles
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: python factory/run.py --count "${{ github.event.inputs.count || '20' }}"
+        run: |
+          ARGS=""
+          if [ "$(date +%u)" = "7" ]; then ARGS="--retry-skipped"; fi
+          python factory/run.py --count "${{ github.event.inputs.count || '20' }}" $ARGS
 
       - name: Publish
         run: |
