@@ -1,0 +1,104 @@
+{
+  "id": "final_fantasy_vii",
+  "format": 2,
+  "status": "read from a public controls table",
+  "updated": "2026-11-25",
+  "name": "Final Fantasy VII",
+  "playstation_version": "PS1",
+  "exe": [
+    "FF7_Launcher.exe"
+  ],
+  "steam_appid": "39140",
+  "wikidata": "Q214232",
+  "overlay_button": "ps",
+  "config_hints": [],
+  "game_files": {
+    "folder_contains": [
+      "7"
+    ],
+    "text_folders": [
+      "system",
+      "System",
+      "Localization",
+      "localization"
+    ]
+  },
+  "_note": "Made automatically from a public controls table. Keys are read from your own game files when the game starts. Read from the controls table on StrategyWiki.",
+  "sources": {
+    "strategywiki": "https://strategywiki.org/wiki/Final_Fantasy_VII/Controls",
+    "pcgamingwiki": "https://www.pcgamingwiki.com/wiki/Final_Fantasy_VII"
+  },
+  "credits": "Controls from StrategyWiki (CC BY-SA 4.0); facts from PCGamingWiki. Layout licence: CC BY-SA 4.0.",
+  "native_controller_support": true,
+  "buttons": {
+    "cross": {
+      "action": "Back one level in menus",
+      "commands": [
+        "BackOneLevelInMenus",
+        "OrCloseTheMenuInQuestionOutsideOfTheMenu",
+        "HoldDownToMakeTheCharacterRunNotAvailabl"
+      ],
+      "default_key": "0"
+    },
+    "options": {
+      "action": "In world map",
+      "commands": [
+        "InWorldMap",
+        "ChangesMapDisplayPausesDuringBattle"
+      ],
+      "default_key": "5"
+    },
+    "l1": {
+      "action": "Move the pointer up",
+      "commands": [
+        "MoveThePointerUpOrDownOnePageInTheMenus",
+        "OrRotateViewInWorldMapHoldDownBothToEsca"
+      ],
+      "default_key": "9"
+    },
+    "l2": {
+      "action": "Changes camera angle on the Overworld ma",
+      "commands": [
+        "ChangesCameraAngleOnTheOverworldMap"
+      ],
+      "default_key": "7"
+    },
+    "r2": {
+      "action": "Changes camera angle on the Overworld ma",
+      "commands": [
+        "ChangesCameraAngleOnTheOverworldMapInCom",
+        "ShowsTargetingAid"
+      ],
+      "default_key": "1"
+    },
+    "ps": {
+      "action": "Hold: show this button list",
+      "default_key": "NONE"
+    }
+  },
+  "left_stick": {
+    "mode": "keys",
+    "deadzone": 0.2,
+    "diagonal_threshold": 0.38,
+    "analog_speed": {
+      "enabled": false,
+      "levels": 5,
+      "rezero_on_release": true
+    },
+    "up_commands": [],
+    "up_default": "W",
+    "down_commands": [],
+    "down_default": "S",
+    "left_commands": [],
+    "left_default": "A",
+    "right_commands": [],
+    "right_default": "D"
+  },
+  "right_stick": {
+    "mode": "mouse",
+    "sensitivity": 18,
+    "curve": 2.0,
+    "deadzone": 0.12,
+    "invert_y": false
+  }
+}

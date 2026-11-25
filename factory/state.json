@@ -1,12 +1,32 @@
 {
  "done": {
+  "bully": "2026-11-25",
+  "final_fantasy_vii": "2026-11-25",
   "grand_theft_auto_iii": "2026-11-24",
   "grand_theft_auto_san_andreas": "2026-11-24",
-  "grand_theft_auto_vice_city": "2026-11-24"
+  "grand_theft_auto_vice_city": "2026-11-24",
+  "tomb_raider": "2026-11-25"
  },
  "rebuilds": {},
  "skipped": {
+  "age_of_empires_ii_the_age_of_kings": "2026-11-25: The read operation timed out",
+  "call_of_duty_modern_warfare_3": "2026-11-25: Gemini API 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more informatio",
+  "civilization": "2026-11-25: Gemini API 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more informatio",
+  "diablo": "2026-11-25: Gemini API 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more informatio",
+  "final_fantasy_viii": "2026-11-25: Gemini API 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more informatio",
   "half_life": "2026-11-24: Gemini API 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please",
-  "the_sims": "2026-11-24: The read operation timed out"
+  "max_payne": "2026-11-25: Gemini API 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please",
+  "metal_gear_solid": "2026-11-25: The read operation timed out",
+  "myst": "2026-11-25: Gemini API 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more informatio",
+  "need_for_speed_carbon": "2026-11-25: Gemini API 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more informatio",
+  "need_for_speed_most_wanted": "2026-11-25: Gemini API 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more informatio",
+  "resident_evil": "2026-11-25: Gemini API 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more informatio",
+  "resident_evil_2": "2026-11-25: Gemini API 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more informatio",
+  "resident_evil_4": "2026-11-25: The read operation timed out",
+  "silent_hill_2": "2026-11-25: Gemini API 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more informatio",
+  "space_invaders": "2026-11-25: The read operation timed out",
+  "the_sims": "2026-11-24: The read operation timed out",
+  "the_sims_2": "2026-11-25: skipped by AI: The provided sources do not describe the controls for this game.",
+  "the_sims_3": "2026-11-25: The read operation timed out"
  }
 }

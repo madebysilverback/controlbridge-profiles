@@ -1,0 +1,102 @@
+{
+  "id": "tomb_raider",
+  "format": 2,
+  "status": "read from a public controls table",
+  "updated": "2026-11-25",
+  "name": "Tomb Raider",
+  "playstation_version": "PS1",
+  "exe": [
+    "DOSBox.exe",
+    "tombati.exe",
+    "tombub.exe"
+  ],
+  "steam_appid": "224960",
+  "wikidata": "Q317620",
+  "overlay_button": "ps",
+  "config_hints": [],
+  "game_files": {
+    "folder_contains": [
+      "tomb",
+      "raider"
+    ],
+    "text_folders": [
+      "system",
+      "System",
+      "Localization",
+      "localization"
+    ]
+  },
+  "_note": "Made automatically from a public controls table. Keys are read from your own game files when the game starts. Read from the controls table on StrategyWiki.",
+  "sources": {
+    "strategywiki": "https://strategywiki.org/wiki/Tomb_Raider/Controls",
+    "pcgamingwiki": "https://www.pcgamingwiki.com/wiki/Tomb_Raider_(1996)"
+  },
+  "credits": "Controls from StrategyWiki (CC BY-SA 4.0); facts from PCGamingWiki. Layout licence: CC BY-SA 4.0.",
+  "native_controller_support": true,
+  "buttons": {
+    "cross": {
+      "action": "desc Action",
+      "commands": [
+        "DescAction"
+      ],
+      "default_key": "LCTRL"
+    },
+    "r1": {
+      "action": "desc Walk",
+      "commands": [
+        "DescWalk"
+      ],
+      "default_key": "LSHIFT"
+    },
+    "l2": {
+      "action": "desc Sidestep left",
+      "commands": [
+        "DescSidestepLeft"
+      ],
+      "default_key": "DELETE"
+    },
+    "r2": {
+      "action": "desc Sidestep right",
+      "commands": [
+        "DescSidestepRight"
+      ],
+      "default_key": "PAGEDOWN"
+    },
+    "create": {
+      "action": "desc Menu Ring (Pause menu)",
+      "commands": [
+        "DescMenuRingPauseMenu"
+      ],
+      "default_key": "ESCAPE"
+    },
+    "ps": {
+      "action": "Hold: show this button list",
+      "default_key": "NONE"
+    }
+  },
+  "left_stick": {
+    "mode": "keys",
+    "deadzone": 0.2,
+    "diagonal_threshold": 0.38,
+    "analog_speed": {
+      "enabled": false,
+      "levels": 5,
+      "rezero_on_release": true
+    },
+    "up_commands": [],
+    "up_default": "W",
+    "down_commands": [],
+    "down_default": "S",
+    "left_commands": [],
+    "left_default": "A",
+    "right_commands": [],
+    "right_default": "D"
+  },
+  "right_stick": {
+    "mode": "mouse",
+    "sensitivity": 18,
+    "curve": 2.0,
+    "deadzone": 0.12,
+    "invert_y": false
+  }
+}

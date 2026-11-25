@@ -1,8 +1,32 @@
 {
  "version": 1,
- "updated": "2026-11-25T01:57:25Z",
- "count": 4,
+ "updated": "2026-11-25T05:22:41Z",
+ "count": 7,
  "profiles": [
+  {
+   "id": "bully",
+   "name": "Bully",
+   "file": "profiles/bully.json",
+   "sha256": "43675af89478d47ce99d3c1c381720bce99e865e5555e7ad29043ed5d3e8e486",
+   "exe": [
+    "Bully.exe"
+   ],
+   "steam_appid": "12200",
+   "status": "read from a public controls table",
+   "updated": "2026-11-25"
+  },
+  {
+   "id": "final_fantasy_vii",
+   "name": "Final Fantasy VII",
+   "file": "profiles/final_fantasy_vii.json",
+   "sha256": "629cf8b6558a8e4455ffb88554cf32af2c3037417133507218390adc0e009730",
+   "exe": [
+    "FF7_Launcher.exe"
+   ],
+   "steam_appid": "39140",
+   "status": "read from a public controls table",
+   "updated": "2026-11-25"
+  },
   {
    "id": "grand_theft_auto_iii",
    "name": "Grand Theft Auto III",
@@ -50,6 +74,20 @@
    "steam_appid": "3929740",
    "status": "made with AI",
    "updated": "2026-11-24"
+  },
+  {
+   "id": "tomb_raider",
+   "name": "Tomb Raider",
+   "file": "profiles/tomb_raider.json",
+   "sha256": "c07aecc039089973a548875fc8bf3d1fe161a8835d807d55424bc13a84e5c933",
+   "exe": [
+    "DOSBox.exe",
+    "tombati.exe",
+    "tombub.exe"
+   ],
+   "steam_appid": "224960",
+   "status": "read from a public controls table",
+   "updated": "2026-11-25"
   }
  ]
 }
