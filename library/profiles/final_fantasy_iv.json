@@ -1,0 +1,171 @@
+{
+  "id": "final_fantasy_iv",
+  "format": 2,
+  "status": "made with AI",
+  "updated": "2026-11-26",
+  "name": "Final Fantasy IV",
+  "playstation_version": "PS1 (1997)",
+  "exe": [
+    "FINAL FANTASY IV.exe"
+  ],
+  "steam_appid": null,
+  "wikidata": "Q911226",
+  "overlay_button": "ps",
+  "config_hints": [
+    "%USERPROFILE%\\Documents\\My Games\\FINAL FANTASY IV PR"
+  ],
+  "game_files": {
+    "folder_contains": [
+      "4"
+    ],
+    "text_folders": [
+      "system",
+      "System",
+      "Localization",
+      "localization"
+    ]
+  },
+  "_note": "Made automatically with AI from public sources. Keys are read from your own game files when the game starts. Controls configured to match the PS1 release with Cross for confirm and Circle for cancel.",
+  "sources": {
+    "strategywiki": "https://strategywiki.org/wiki/Final_Fantasy_IV/Controls",
+    "pcgamingwiki": "https://www.pcgamingwiki.com/wiki/Final_Fantasy_IV"
+  },
+  "credits": "Controls from StrategyWiki (CC BY-SA 4.0); facts from PCGamingWiki. Layout licence: CC BY-SA 4.0.",
+  "native_controller_support": true,
+  "buttons": {
+    "cross": {
+      "action": "Confirm / Talk / Examine",
+      "commands": [
+        "Confirm",
+        "Talk",
+        "Interact",
+        "Action"
+      ],
+      "default_key": "ENTER",
+      "check": true
+    },
+    "circle": {
+      "action": "Cancel / Run",
+      "commands": [
+        "Cancel",
+        "Run"
+      ],
+      "default_key": "BACKSPACE",
+      "check": true
+    },
+    "triangle": {
+      "action": "Main Menu",
+      "commands": [
+        "Menu",
+        "MainMenu"
+      ],
+      "default_key": "TAB",
+      "check": true
+    },
+    "l1": {
+      "action": "Previous Character / Page Left",
+      "commands": [
+        "PrevCharacter",
+        "PageLeft",
+        "SwitchCharacterLeft"
+      ],
+      "default_key": "Q",
+      "check": true
+    },
+    "r1": {
+      "action": "Next Character / Page Right",
+      "commands": [
+        "NextCharacter",
+        "PageRight",
+        "SwitchCharacterRight"
+      ],
+      "default_key": "E",
+      "check": true
+    },
+    "options": {
+      "action": "Pause",
+      "commands": [
+        "Pause"
+      ],
+      "default_key": "ESCAPE",
+      "check": true
+    },
+    "dpad_up": {
+      "action": "Move Up / Cursor Up",
+      "commands": [
+        "Up",
+        "MoveUp"
+      ],
+      "default_key": "UP",
+      "check": true
+    },
+    "dpad_down": {
+      "action": "Move Down / Cursor Down",
+      "commands": [
+        "Down",
+        "MoveDown"
+      ],
+      "default_key": "DOWN",
+      "check": true
+    },
+    "dpad_left": {
+      "action": "Move Left / Cursor Left",
+      "commands": [
+        "Left",
+        "MoveLeft"
+      ],
+      "default_key": "LEFT",
+      "check": true
+    },
+    "dpad_right": {
+      "action": "Move Right / Cursor Right",
+      "commands": [
+        "Right",
+        "MoveRight"
+      ],
+      "default_key": "RIGHT",
+      "check": true
+    },
+    "ps": {
+      "action": "Hold: show this button list",
+      "default_key": "NONE"
+    }
+  },
+  "left_stick": {
+    "mode": "keys",
+    "deadzone": 0.2,
+    "diagonal_threshold": 0.38,
+    "analog_speed": {
+      "enabled": false,
+      "levels": 5,
+      "rezero_on_release": true
+    },
+    "up_commands": [
+      "MoveUp",
+      "Up"
+    ],
+    "up_default": "W",
+    "down_commands": [
+      "MoveDown",
+      "Down"
+    ],
+    "down_default": "S",
+    "left_commands": [
+      "MoveLeft",
+      "Left"
+    ],
+    "left_default": "A",
+    "right_commands": [
+      "MoveRight",
+      "Right"
+    ],
+    "right_default": "D"
+  },
+  "right_stick": {
+    "mode": "none",
+    "sensitivity": 18,
+    "curve": 2.0,
+    "deadzone": 0.12,
+    "invert_y": false
+  }
+}

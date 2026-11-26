@@ -1,7 +1,7 @@
 {
  "version": 1,
- "updated": "2026-11-26T01:56:28Z",
- "count": 7,
+ "updated": "2026-11-26T05:19:28Z",
+ "count": 10,
  "profiles": [
   {
    "id": "bully",
@@ -14,6 +14,30 @@
    "steam_appid": "12200",
    "status": "read from a public controls table",
    "updated": "2026-11-25"
+  },
+  {
+   "id": "chrono_trigger",
+   "name": "Chrono Trigger",
+   "file": "profiles/chrono_trigger.json",
+   "sha256": "4bdbb80c53f83b514c4f0fd196c253d1ccd948ba576e651d52798ee7715c0792",
+   "exe": [
+    "Chrono Trigger.exe"
+   ],
+   "steam_appid": "613830",
+   "status": "made with AI",
+   "updated": "2026-11-26"
+  },
+  {
+   "id": "final_fantasy_iv",
+   "name": "Final Fantasy IV",
+   "file": "profiles/final_fantasy_iv.json",
+   "sha256": "536f12802a951348d87d8d47e58719f11386531f081816a2755ebd3eb9b6a3b8",
+   "exe": [
+    "FINAL FANTASY IV.exe"
+   ],
+   "steam_appid": null,
+   "status": "made with AI",
+   "updated": "2026-11-26"
   },
   {
    "id": "final_fantasy_vii",
@@ -62,6 +86,19 @@
    "steam_appid": "12110",
    "status": "read from a public controls table",
    "updated": "2026-11-24"
+  },
+  {
+   "id": "resident_evil_3_nemesis",
+   "name": "Resident Evil 3: Nemesis",
+   "file": "profiles/resident_evil_3_nemesis.json",
+   "sha256": "1682556fb295e74ab91d28259e1e675b2a85634f9691710705f8c942c55bc380",
+   "exe": [
+    "4249120_Launcher.exe",
+    "bio3.exe"
+   ],
+   "steam_appid": "4249120",
+   "status": "made with AI",
+   "updated": "2026-11-26"
   },
   {
    "id": "splinter_cell_pandora_tomorrow",

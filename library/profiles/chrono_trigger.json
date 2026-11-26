@@ -1,0 +1,180 @@
+{
+  "id": "chrono_trigger",
+  "format": 2,
+  "status": "made with AI",
+  "updated": "2026-11-26",
+  "name": "Chrono Trigger",
+  "playstation_version": "PS1 (1999)",
+  "exe": [
+    "Chrono Trigger.exe"
+  ],
+  "steam_appid": "613830",
+  "wikidata": "Q761815",
+  "overlay_button": "ps",
+  "config_hints": [
+    "%USERPROFILE%\\Documents\\My Games\\Chrono Trigger\\"
+  ],
+  "game_files": {
+    "folder_contains": [
+      "chrono",
+      "trigger"
+    ],
+    "text_folders": [
+      "system",
+      "System",
+      "Localization",
+      "localization"
+    ]
+  },
+  "_note": "Made automatically with AI from public sources. Keys are read from your own game files when the game starts. A keyboard is required when entering character names.",
+  "sources": {
+    "strategywiki": "https://strategywiki.org/wiki/Chrono_Trigger/Controls",
+    "pcgamingwiki": "https://www.pcgamingwiki.com/wiki/Chrono_Trigger"
+  },
+  "credits": "Controls from StrategyWiki (CC BY-SA 4.0); facts from PCGamingWiki. Layout licence: CC BY-SA 4.0.",
+  "native_controller_support": true,
+  "buttons": {
+    "cross": {
+      "action": "Confirm / Interact",
+      "commands": [
+        "Confirm",
+        "Action",
+        "Talk",
+        "Interact"
+      ],
+      "default_key": "ENTER",
+      "check": true
+    },
+    "circle": {
+      "action": "Cancel / Dash",
+      "commands": [
+        "Cancel",
+        "Dash",
+        "Back"
+      ],
+      "default_key": "ESCAPE",
+      "check": true
+    },
+    "triangle": {
+      "action": "Menu",
+      "commands": [
+        "Menu"
+      ],
+      "default_key": "TAB",
+      "check": true
+    },
+    "square": {
+      "action": "Switch Characters / Dialogue Box",
+      "commands": [
+        "Switch",
+        "Change"
+      ],
+      "default_key": "LSHIFT",
+      "check": true
+    },
+    "l1": {
+      "action": "Time Gauge Left / Run",
+      "commands": [
+        "PageLeft",
+        "Prev",
+        "L"
+      ],
+      "default_key": "Q",
+      "check": true
+    },
+    "r1": {
+      "action": "Time Gauge Right / Run",
+      "commands": [
+        "PageRight",
+        "Next",
+        "R"
+      ],
+      "default_key": "E",
+      "check": true
+    },
+    "create": {
+      "action": "World Map",
+      "commands": [
+        "Map",
+        "WorldMap",
+        "Select"
+      ],
+      "default_key": "M",
+      "check": true
+    },
+    "options": {
+      "action": "Pause",
+      "commands": [
+        "Pause",
+        "Start"
+      ],
+      "default_key": "P",
+      "check": true
+    },
+    "dpad_up": {
+      "action": "Move Up",
+      "commands": [
+        "Up"
+      ],
+      "default_key": "UP"
+    },
+    "dpad_down": {
+      "action": "Move Down",
+      "commands": [
+        "Down"
+      ],
+      "default_key": "DOWN"
+    },
+    "dpad_left": {
+      "action": "Move Left",
+      "commands": [
+        "Left"
+      ],
+      "default_key": "LEFT"
+    },
+    "dpad_right": {
+      "action": "Move Right",
+      "commands": [
+        "Right"
+      ],
+      "default_key": "RIGHT"
+    },
+    "ps": {
+      "action": "Hold: show this button list",
+      "default_key": "NONE"
+    }
+  },
+  "left_stick": {
+    "mode": "keys",
+    "deadzone": 0.2,
+    "diagonal_threshold": 0.38,
+    "analog_speed": {
+      "enabled": false,
+      "levels": 5,
+      "rezero_on_release": true
+    },
+    "up_commands": [
+      "Up"
+    ],
+    "up_default": "W",
+    "down_commands": [
+      "Down"
+    ],
+    "down_default": "S",
+    "left_commands": [
+      "Left"
+    ],
+    "left_default": "A",
+    "right_commands": [
+      "Right"
+    ],
+    "right_default": "D"
+  },
+  "right_stick": {
+    "mode": "none",
+    "sensitivity": 18,
+    "curve": 2.0,
+    "deadzone": 0.12,
+    "invert_y": false
+  }
+}

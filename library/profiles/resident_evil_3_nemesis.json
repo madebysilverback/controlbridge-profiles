@@ -1,0 +1,168 @@
+{
+  "id": "resident_evil_3_nemesis",
+  "format": 2,
+  "status": "made with AI",
+  "updated": "2026-11-26",
+  "name": "Resident Evil 3: Nemesis",
+  "playstation_version": "PS1 (1999)",
+  "exe": [
+    "4249120_Launcher.exe",
+    "bio3.exe"
+  ],
+  "steam_appid": "4249120",
+  "wikidata": "Q739784",
+  "overlay_button": "ps",
+  "config_hints": [
+    "bio3.ini"
+  ],
+  "game_files": {
+    "folder_contains": [
+      "3",
+      "nemesis"
+    ],
+    "text_folders": [
+      "system",
+      "System",
+      "Localization",
+      "localization"
+    ]
+  },
+  "_note": "Made automatically with AI from public sources. Keys are read from your own game files when the game starts. Classic tank controls are mapped to the left stick and D-pad; mouse aiming is not supported in the original PC release.",
+  "sources": {
+    "strategywiki": "https://strategywiki.org/wiki/Resident_Evil_3:_Nemesis/Controls",
+    "pcgamingwiki": "https://www.pcgamingwiki.com/wiki/Biohazard_3:_Last_Escape_(Sourcenext)"
+  },
+  "credits": "Controls from StrategyWiki (CC BY-SA 4.0); facts from PCGamingWiki. Layout licence: CC BY-SA 4.0.",
+  "native_controller_support": true,
+  "buttons": {
+    "cross": {
+      "action": "Action / Shoot",
+      "commands": [
+        "Action",
+        "Shoot",
+        "Select"
+      ],
+      "default_key": "SPACE"
+    },
+    "square": {
+      "action": "Run",
+      "commands": [
+        "Run",
+        "Dash"
+      ],
+      "default_key": "V"
+    },
+    "circle": {
+      "action": "Inventory",
+      "commands": [
+        "Inventory",
+        "Status"
+      ],
+      "default_key": "Z"
+    },
+    "triangle": {
+      "action": "Cancel",
+      "commands": [
+        "Cancel"
+      ],
+      "default_key": "ESCAPE"
+    },
+    "l1": {
+      "action": "Switch Targets",
+      "commands": [
+        "Switch Targets",
+        "Change Target"
+      ],
+      "default_key": "B"
+    },
+    "r1": {
+      "action": "Aim Weapon",
+      "commands": [
+        "Aim",
+        "Ready Weapon"
+      ],
+      "default_key": "X",
+      "check": true
+    },
+    "create": {
+      "action": "Options Menu",
+      "commands": [
+        "Options"
+      ],
+      "default_key": "F2"
+    },
+    "dpad_up": {
+      "action": "Move Forward",
+      "commands": [
+        "Forward",
+        "Up"
+      ],
+      "default_key": "UP"
+    },
+    "dpad_down": {
+      "action": "Move Backward",
+      "commands": [
+        "Backward",
+        "Down"
+      ],
+      "default_key": "DOWN"
+    },
+    "dpad_left": {
+      "action": "Turn Left",
+      "commands": [
+        "Turn Left",
+        "Left"
+      ],
+      "default_key": "LEFT"
+    },
+    "dpad_right": {
+      "action": "Turn Right",
+      "commands": [
+        "Turn Right",
+        "Right"
+      ],
+      "default_key": "RIGHT"
+    },
+    "ps": {
+      "action": "Hold: show this button list",
+      "default_key": "NONE"
+    }
+  },
+  "left_stick": {
+    "mode": "keys",
+    "deadzone": 0.2,
+    "diagonal_threshold": 0.38,
+    "analog_speed": {
+      "enabled": false,
+      "levels": 5,
+      "rezero_on_release": true
+    },
+    "up_commands": [
+      "Forward",
+      "Up"
+    ],
+    "up_default": "UP",
+    "down_commands": [
+      "Backward",
+      "Down"
+    ],
+    "down_default": "DOWN",
+    "left_commands": [
+      "Turn Left",
+      "Left"
+    ],
+    "left_default": "LEFT",
+    "right_commands": [
+      "Turn Right",
+      "Right"
+    ],
+    "right_default": "RIGHT"
+  },
+  "right_stick": {
+    "mode": "none",
+    "sensitivity": 18,
+    "curve": 2.0,
+    "deadzone": 0.12,
+    "invert_y": false
+  }
+}
