@@ -1,7 +1,7 @@
 {
   "id": "splinter_cell_pandora_tomorrow",
   "format": 2,
-  "status": "made with AI",
+  "status": "checked against the game's files",
   "updated": "2026-11-24",
   "name": "Splinter Cell: Pandora Tomorrow",
   "playstation_version": "PS2 (2004)",
@@ -20,7 +20,7 @@
       "system"
     ]
   },
-  "_note": "Library profile. Keys are read from your own game files when the game starts; default_key is used if a key isn't found.",
+  "_note": "Library profile, checked against the PC version's key settings. Keys are read from your own game files when the game starts. R2 reloads: the PC version has no draw-weapon key. The game builds its on-screen hints in code, so hold PS for the PlayStation button list.",
   "buttons": {
     "triangle": {
       "action": "Jump",
@@ -32,25 +32,21 @@
     "circle": {
       "action": "Crouch / roll",
       "commands": [
-        "Duck",
-        "Crouch"
+        "Duck"
       ],
       "default_key": "C"
     },
     "cross": {
       "action": "Interact",
       "commands": [
-        "Interaction",
-        "Interact",
-        "Use"
+        "Interaction"
       ],
       "default_key": "SPACE"
     },
     "square": {
       "action": "Quick inventory",
       "commands": [
-        "QuickInventory",
-        "Inventory"
+        "QuickInventory"
       ],
       "default_key": "LCTRL"
     },
@@ -69,12 +65,11 @@
       "default_key": "MOUSE_RIGHT"
     },
     "r2": {
-      "action": "Draw weapon",
+      "action": "Reload",
       "commands": [
-        "DrawWeapon",
-        "UseWeapon"
+        "ReloadGun"
       ],
-      "default_key": "NUMPAD1"
+      "default_key": "R"
     },
     "l2": {
       "action": "Whistle",
@@ -86,15 +81,15 @@
     "l3": {
       "action": "Back to wall",
       "commands": [
-        "BackToWall"
+        "WorldInteract"
       ],
       "default_key": "Q"
     },
     "r3": {
       "action": "Sniper mode",
       "commands": [
-        "Snipe",
-        "SniperMode"
+        "BlackSnipe",
+        "Scope"
       ],
       "default_key": "MOUSE_MIDDLE"
     },
@@ -108,8 +103,7 @@
     "dpad_right": {
       "action": "Thermal vision",
       "commands": [
-        "ThermalVision",
-        "HeatVision"
+        "ThermalVision"
       ],
       "default_key": "END"
     },
@@ -128,18 +122,15 @@
       "default_key": "PAGEDOWN"
     },
     "options": {
-      "action": "Pause menu",
+      "action": "Menu",
       "commands": [
-        "ShowMainMenu",
-        "MainMenu",
-        "Pause"
+        "FullInventory"
       ],
       "default_key": "ESCAPE"
     },
     "create": {
-      "action": "OPSAT (objectives)",
+      "action": "OPSAT objectives",
       "commands": [
-        "FullInventory",
         "OPSAT"
       ],
       "default_key": "F1"
@@ -147,7 +138,7 @@
     "touchpad": {
       "action": "Quicksave (PC extra)",
       "commands": [
-        "QuickSave"
+        "Savegame"
       ],
       "default_key": "F5"
     },
@@ -165,25 +156,25 @@
       "MoveBackward"
     ],
     "left_commands": [
-      "StrafeLeft",
-      "MoveLeft"
+      "StrafeLeft"
     ],
     "right_commands": [
-      "StrafeRight",
-      "MoveRight"
+      "StrafeRight"
     ],
     "up_default": "W",
     "down_default": "S",
     "left_default": "A",
     "right_default": "D",
-    "deadzone": 0.2,
+    "deadzone": 0.25,
     "diagonal_threshold": 0.38,
     "analog_speed": {
       "_note": "Like the PS2: push the stick further to move faster. The PC game uses the mouse wheel for speed, so the app scrolls it for you. 'levels' = how many speed steps the game has; raise or lower it if full tilt is not top speed.",
       "enabled": true,
       "levels": 5,
       "rezero_on_release": true
-    }
+    },
+    "hysteresis_deg": 12,
+    "min_hold_ms": 150
   },
   "right_stick": {
     "mode": "mouse",

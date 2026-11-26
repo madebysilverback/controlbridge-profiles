@@ -24,13 +24,13 @@ account for the free Gemini key.
 
 2. CREATE THE LIBRARY ON GITHUB
    - github.com > "+" (top right) > New repository.
-   - Name: controlbridge-profiles   (exactly this - the app looks for it)
+   - Name: tapsquatch-profiles   (exactly this - the app looks for it)
    - Choose PUBLIC (the app downloads from it, and GitHub's robot is free
      for public projects). Click Create repository.
 
 3. UPLOAD THESE FILES
    - On the new page click "uploading an existing file".
-   - Open the unzipped controlbridge-profiles folder, select EVERYTHING
+   - Open the unzipped tapsquatch-profiles folder, select EVERYTHING
      inside it (including the ".github" folder) and drag it onto the page.
    - Click "Commit changes".
 
@@ -53,7 +53,7 @@ account for the free Gemini key.
    - Actions tab > "Profile factory" > Run workflow. Type 5 in the box,
      then Run workflow. Takes about 10 minutes.
    - When it shows a green tick, open library/profiles: you'll see the
-     new games. ControlBridge downloads them next time it starts.
+     new games. Tapsquatch downloads them next time it starts.
 
 After that it runs by itself every night, adding 20 games a time. To make
 more or fewer per night, change "20" in .github/workflows/factory.yml.

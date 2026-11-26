@@ -103,7 +103,7 @@ def handle_reports(key):
             write_profile(new)
             state["rebuilds"][pid] = time.strftime("%Y-%m-%d")
             for i in issues:
-                close(i, "Thanks! The layout was rebuilt with your report. ControlBridge downloads "
+                close(i, "Thanks! The layout was rebuilt with your report. Tapsquatch downloads "
                          "the fix next time it starts.")
             print(f"  rebuilt {pid} from {len(issues)} reports")
         except Exception as e:  # noqa: BLE001

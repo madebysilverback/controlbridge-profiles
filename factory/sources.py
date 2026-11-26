@@ -5,7 +5,7 @@ key a PC version uses, the program's file name) are taken from them.
   StrategyWiki  - controls pages, often PlayStation and PC side by side.
                   Text is CC BY-SA 4.0: credited in each profile.
   PCGamingWiki  - PC details: input notes, where settings files live.
-                  CC BY-NC-SA 3.0: fine while ControlBridge is free.
+                  CC BY-NC-SA 3.0: fine while Tapsquatch is free.
   SteamCMD      - the program file Steam launches (no login needed).
 """
 

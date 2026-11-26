@@ -1,4 +1,4 @@
-"""Shared helpers for the ControlBridge profile factory."""
+"""Shared helpers for the Tapsquatch profile factory."""
 
 import hashlib
 import json
@@ -13,7 +13,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LIB = os.path.join(ROOT, "library")
 PROFILES = os.path.join(LIB, "profiles")
 STATE = os.path.join(ROOT, "factory", "state.json")
-AGENT = "ControlBridgeProfileFactory/0.1 (+https://madebysilverback.com; free controller layouts)"
+AGENT = "TapsquatchProfileFactory/0.1 (+https://madebysilverback.com; free controller layouts)"
 
 BUTTONS = ["cross", "circle", "square", "triangle", "l1", "r1", "l2", "r2", "l3", "r3",
            "create", "options", "touchpad", "dpad_up", "dpad_down", "dpad_left", "dpad_right"]

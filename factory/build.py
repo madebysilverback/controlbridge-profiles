@@ -1,4 +1,4 @@
-"""Turns the collected facts into a ControlBridge profile with Claude."""
+"""Turns the collected facts into a Tapsquatch profile with Claude."""
 
 import json
 import os
@@ -48,7 +48,7 @@ def ask_gemini(prompt, key):
             raise RuntimeError(f"Gemini API {e.code}: {e.read().decode(errors='ignore')[:200]}")
     raise RuntimeError("Gemini API did not answer (free daily limit may be used up)")
 
-PROMPT = """You are building a controller profile for ControlBridge, a free Windows app that lets a
+PROMPT = """You are building a controller profile for Tapsquatch, a free Windows app that lets a
 PS5 DualSense play a PC game using the button layout of the game's PlayStation version.
 Keys are NOT fixed in the profile: on each player's PC the app reads the game's own key
 settings and finds the key bound to each "command". So for every button, give the PC game's
@@ -157,7 +157,7 @@ def from_table(game, facts, generation, buttons):
 
 
 def to_profile(game, facts, reply):
-    """Claude's reply -> profile in ControlBridge's library format (format 2)."""
+    """Claude's reply -> profile in Tapsquatch's library format (format 2)."""
     if reply.get("skip"):
         raise ValueError(f"skipped by AI: {reply['skip']}")
     buttons = {}

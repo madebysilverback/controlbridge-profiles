@@ -1,105 +1,8 @@
 {
  "version": 1,
- "updated": "2026-11-26T13:53:58Z",
- "count": 10,
+ "updated": "2026-11-24T17:28:45Z",
+ "count": 1,
  "profiles": [
-  {
-   "id": "bully",
-   "name": "Bully",
-   "file": "profiles/bully.json",
-   "sha256": "43675af89478d47ce99d3c1c381720bce99e865e5555e7ad29043ed5d3e8e486",
-   "exe": [
-    "Bully.exe"
-   ],
-   "steam_appid": "12200",
-   "status": "read from a public controls table",
-   "updated": "2026-11-25"
-  },
-  {
-   "id": "chrono_trigger",
-   "name": "Chrono Trigger",
-   "file": "profiles/chrono_trigger.json",
-   "sha256": "4bdbb80c53f83b514c4f0fd196c253d1ccd948ba576e651d52798ee7715c0792",
-   "exe": [
-    "Chrono Trigger.exe"
-   ],
-   "steam_appid": "613830",
-   "status": "made with AI",
-   "updated": "2026-11-26"
-  },
-  {
-   "id": "final_fantasy_iv",
-   "name": "Final Fantasy IV",
-   "file": "profiles/final_fantasy_iv.json",
-   "sha256": "536f12802a951348d87d8d47e58719f11386531f081816a2755ebd3eb9b6a3b8",
-   "exe": [
-    "FINAL FANTASY IV.exe"
-   ],
-   "steam_appid": null,
-   "status": "made with AI",
-   "updated": "2026-11-26"
-  },
-  {
-   "id": "final_fantasy_vii",
-   "name": "Final Fantasy VII",
-   "file": "profiles/final_fantasy_vii.json",
-   "sha256": "629cf8b6558a8e4455ffb88554cf32af2c3037417133507218390adc0e009730",
-   "exe": [
-    "FF7_Launcher.exe"
-   ],
-   "steam_appid": "39140",
-   "status": "read from a public controls table",
-   "updated": "2026-11-25"
-  },
-  {
-   "id": "grand_theft_auto_iii",
-   "name": "Grand Theft Auto III",
-   "file": "profiles/grand_theft_auto_iii.json",
-   "sha256": "61227bec7674c851fa052333cb7c08a12b08051b5ecb6a23e6d962c581baec2d",
-   "exe": [
-    "gta3.exe"
-   ],
-   "steam_appid": "12100",
-   "status": "read from a public controls table",
-   "updated": "2026-11-24"
-  },
-  {
-   "id": "grand_theft_auto_san_andreas",
-   "name": "Grand Theft Auto: San Andreas",
-   "file": "profiles/grand_theft_auto_san_andreas.json",
-   "sha256": "8c10b8b414b69f75d34e1efc338ab27adf72b6470abea481095cde76feebc17d",
-   "exe": [
-    "gta-sa.exe"
-   ],
-   "steam_appid": "12120",
-   "status": "read from a public controls table",
-   "updated": "2026-11-24"
-  },
-  {
-   "id": "grand_theft_auto_vice_city",
-   "name": "Grand Theft Auto: Vice City",
-   "file": "profiles/grand_theft_auto_vice_city.json",
-   "sha256": "473d2cd5056c31d555f2d4ed192575574a7381fe2d070b38daefaa9e8249832e",
-   "exe": [
-    "gta-vc.exe"
-   ],
-   "steam_appid": "12110",
-   "status": "read from a public controls table",
-   "updated": "2026-11-24"
-  },
-  {
-   "id": "resident_evil_3_nemesis",
-   "name": "Resident Evil 3: Nemesis",
-   "file": "profiles/resident_evil_3_nemesis.json",
-   "sha256": "1682556fb295e74ab91d28259e1e675b2a85634f9691710705f8c942c55bc380",
-   "exe": [
-    "4249120_Launcher.exe",
-    "bio3.exe"
-   ],
-   "steam_appid": "4249120",
-   "status": "made with AI",
-   "updated": "2026-11-26"
-  },
   {
    "id": "splinter_cell_pandora_tomorrow",
    "name": "Splinter Cell: Pandora Tomorrow",
@@ -111,20 +14,6 @@
    "steam_appid": "3929740",
    "status": "made with AI",
    "updated": "2026-11-24"
-  },
-  {
-   "id": "tomb_raider",
-   "name": "Tomb Raider",
-   "file": "profiles/tomb_raider.json",
-   "sha256": "c07aecc039089973a548875fc8bf3d1fe161a8835d807d55424bc13a84e5c933",
-   "exe": [
-    "DOSBox.exe",
-    "tombati.exe",
-    "tombub.exe"
-   ],
-   "steam_appid": "224960",
-   "status": "read from a public controls table",
-   "updated": "2026-11-25"
   }
  ]
 }
