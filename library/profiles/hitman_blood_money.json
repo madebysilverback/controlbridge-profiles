@@ -1,0 +1,128 @@
+{
+  "id": "hitman_blood_money",
+  "format": 2,
+  "status": "read from a public controls table",
+  "updated": "2026-11-27",
+  "name": "Hitman: Blood Money",
+  "playstation_version": "PS2",
+  "exe": [
+    "HitmanBloodMoney.exe",
+    "configure.exe"
+  ],
+  "steam_appid": "6860",
+  "wikidata": "Q239889",
+  "overlay_button": "ps",
+  "config_hints": [],
+  "game_files": {
+    "folder_contains": [
+      "blood",
+      "money"
+    ],
+    "text_folders": [
+      "system",
+      "System",
+      "Localization",
+      "localization"
+    ]
+  },
+  "_note": "Made automatically from a public controls table. Keys are read from your own game files when the game starts. Read from the controls table on StrategyWiki.",
+  "sources": {
+    "strategywiki": "https://strategywiki.org/wiki/Hitman:_Blood_Money/Controls",
+    "pcgamingwiki": "https://www.pcgamingwiki.com/wiki/Hitman:_Blood_Money"
+  },
+  "credits": "Controls from StrategyWiki (CC BY-SA 4.0); facts from PCGamingWiki. Layout licence: CC BY-SA 4.0.",
+  "native_controller_support": false,
+  "buttons": {
+    "l2": {
+      "action": "Open",
+      "commands": [
+        "Open",
+        "CloseMap"
+      ],
+      "default_key": "M"
+    },
+    "r2": {
+      "action": "Reload Weapon",
+      "commands": [
+        "ReloadWeapon"
+      ],
+      "default_key": "R"
+    },
+    "l1": {
+      "action": "Crouch",
+      "commands": [
+        "Crouch",
+        "Sneak"
+      ],
+      "default_key": "LCTRL"
+    },
+    "r3": {
+      "action": "Switch View mode (3rd person",
+      "commands": [
+        "SwitchViewMode3RdPerson",
+        "1StPerson"
+      ],
+      "default_key": "F1"
+    },
+    "l3": {
+      "action": "Throw Item (Hold and release)",
+      "commands": [
+        "ThrowItemHold",
+        "Release"
+      ],
+      "default_key": "G"
+    },
+    "cross": {
+      "action": "Action",
+      "commands": [
+        "Action"
+      ],
+      "default_key": "E"
+    },
+    "create": {
+      "action": "Access Mission Briefing",
+      "commands": [
+        "AccessMissionBriefing",
+        "Intel"
+      ],
+      "default_key": "B"
+    },
+    "options": {
+      "action": "Pauses the game",
+      "commands": [
+        "PausesTheGame",
+        "AccessIngameMenu"
+      ],
+      "default_key": "ESCAPE"
+    },
+    "ps": {
+      "action": "Hold: show this button list",
+      "default_key": "NONE"
+    }
+  },
+  "left_stick": {
+    "mode": "keys",
+    "deadzone": 0.2,
+    "diagonal_threshold": 0.38,
+    "analog_speed": {
+      "enabled": false,
+      "levels": 5,
+      "rezero_on_release": true
+    },
+    "up_commands": [],
+    "up_default": "W",
+    "down_commands": [],
+    "down_default": "S",
+    "left_commands": [],
+    "left_default": "A",
+    "right_commands": [],
+    "right_default": "D"
+  },
+  "right_stick": {
+    "mode": "mouse",
+    "sensitivity": 18,
+    "curve": 2.0,
+    "deadzone": 0.12,
+    "invert_y": false
+  }
+}

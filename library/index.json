@@ -1,7 +1,7 @@
 {
  "version": 1,
- "updated": "2026-11-27T01:57:20Z",
- "count": 10,
+ "updated": "2026-11-27T04:53:53Z",
+ "count": 15,
  "profiles": [
   {
    "id": "bully",
@@ -26,6 +26,19 @@
    "steam_appid": "613830",
    "status": "made with AI",
    "updated": "2026-11-26"
+  },
+  {
+   "id": "duke_nukem_3d",
+   "name": "Duke Nukem 3D",
+   "file": "profiles/duke_nukem_3d.json",
+   "sha256": "646fca28737a1ec066c28596723d29c973c390fe5a3d3cb18738c4e9ab662a31",
+   "exe": [
+    "dosbox.exe",
+    "duke3d.exe"
+   ],
+   "steam_appid": "225140",
+   "status": "made with AI",
+   "updated": "2026-11-27"
   },
   {
    "id": "final_fantasy_iv",
@@ -88,6 +101,44 @@
    "updated": "2026-11-24"
   },
   {
+   "id": "hitman_blood_money",
+   "name": "Hitman: Blood Money",
+   "file": "profiles/hitman_blood_money.json",
+   "sha256": "c547098e7ba3036fd69daf59eef8eabbf689f63792d79a4c346f4e977d41d653",
+   "exe": [
+    "HitmanBloodMoney.exe",
+    "configure.exe"
+   ],
+   "steam_appid": "6860",
+   "status": "read from a public controls table",
+   "updated": "2026-11-27"
+  },
+  {
+   "id": "prince_of_persia_the_two_thrones",
+   "name": "Prince of Persia: The Two Thrones",
+   "file": "profiles/prince_of_persia_the_two_thrones.json",
+   "sha256": "d72e41608178ff0d9ce38df478645824ce4bffc78cb2be02682e78c2c2432282",
+   "exe": [
+    "PrinceOfPersia.exe"
+   ],
+   "steam_appid": "13530",
+   "status": "read from a public controls table",
+   "updated": "2026-11-27"
+  },
+  {
+   "id": "prince_of_persia_warrior_within",
+   "name": "Prince of Persia: Warrior Within",
+   "file": "profiles/prince_of_persia_warrior_within.json",
+   "sha256": "29b0d65a880d08474c7fa1864e7ffafdbaeabdf36a807d9d7f5fd1ce6e8c7b6c",
+   "exe": [
+    "POP2.exe",
+    "PrinceOfPersia.exe"
+   ],
+   "steam_appid": "13500",
+   "status": "made with AI",
+   "updated": "2026-11-27"
+  },
+  {
    "id": "resident_evil_3_nemesis",
    "name": "Resident Evil 3: Nemesis",
    "file": "profiles/resident_evil_3_nemesis.json",
@@ -125,6 +176,18 @@
    "steam_appid": "224960",
    "status": "read from a public controls table",
    "updated": "2026-11-25"
+  },
+  {
+   "id": "unreal_tournament",
+   "name": "Unreal Tournament",
+   "file": "profiles/unreal_tournament.json",
+   "sha256": "bc8dd98a244709ec1c26660aa17aefaad4d16ccf78dfeeadc146d3b199abfc71",
+   "exe": [
+    "UnrealTournament.exe"
+   ],
+   "steam_appid": "13240",
+   "status": "read from a public controls table",
+   "updated": "2026-11-27"
   }
  ]
 }

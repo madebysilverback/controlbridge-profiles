@@ -1,0 +1,158 @@
+{
+  "id": "duke_nukem_3d",
+  "format": 2,
+  "status": "made with AI",
+  "updated": "2026-11-27",
+  "name": "Duke Nukem 3D",
+  "playstation_version": "PS1 (1997)",
+  "exe": [
+    "dosbox.exe",
+    "duke3d.exe"
+  ],
+  "steam_appid": "225140",
+  "wikidata": "Q728061",
+  "overlay_button": "ps",
+  "config_hints": [
+    "DUKE3D.CFG"
+  ],
+  "game_files": {
+    "folder_contains": [
+      "duke",
+      "nukem"
+    ],
+    "text_folders": [
+      "system",
+      "System",
+      "Localization",
+      "localization"
+    ]
+  },
+  "_note": "Made automatically with AI from public sources. Keys are read from your own game files when the game starts. Based on the original PlayStation Duke Nukem: Total Meltdown control layout with right-stick mouse aim enabled for PC.",
+  "sources": {
+    "strategywiki": "https://strategywiki.org/wiki/Duke_Nukem_3D/Controls",
+    "pcgamingwiki": "https://www.pcgamingwiki.com/wiki/Duke_Nukem_3D"
+  },
+  "credits": "Controls from StrategyWiki (CC BY-SA 4.0); facts from PCGamingWiki. Layout licence: CC BY-SA 4.0.",
+  "native_controller_support": false,
+  "buttons": {
+    "cross": {
+      "action": "Fire",
+      "commands": [
+        "Fire"
+      ],
+      "default_key": "LCTRL"
+    },
+    "square": {
+      "action": "Strafe",
+      "commands": [
+        "Strafe"
+      ],
+      "default_key": "LALT"
+    },
+    "triangle": {
+      "action": "Open",
+      "commands": [
+        "Open",
+        "Use"
+      ],
+      "default_key": "SPACE"
+    },
+    "circle": {
+      "action": "Next Weapon",
+      "commands": [
+        "Next_Weapon",
+        "NextWeapon"
+      ],
+      "default_key": "APOSTROPHE"
+    },
+    "r1": {
+      "action": "Jump",
+      "commands": [
+        "Jump"
+      ],
+      "default_key": "A"
+    },
+    "r2": {
+      "action": "Crouch",
+      "commands": [
+        "Crouch"
+      ],
+      "default_key": "Z"
+    },
+    "l1": {
+      "action": "Aim Up",
+      "commands": [
+        "Aim_Up",
+        "AimUp",
+        "Look_Up"
+      ],
+      "default_key": "HOME"
+    },
+    "l2": {
+      "action": "Aim Down",
+      "commands": [
+        "Aim_Down",
+        "AimDown",
+        "Look_Down"
+      ],
+      "default_key": "END"
+    },
+    "options": {
+      "action": "Main Menu",
+      "commands": [
+        "Menu",
+        "Main_Menu"
+      ],
+      "default_key": "ESCAPE"
+    },
+    "create": {
+      "action": "Map",
+      "commands": [
+        "Map",
+        "Toggle_Map"
+      ],
+      "default_key": "TAB"
+    },
+    "ps": {
+      "action": "Hold: show this button list",
+      "default_key": "NONE"
+    }
+  },
+  "left_stick": {
+    "mode": "keys",
+    "deadzone": 0.2,
+    "diagonal_threshold": 0.38,
+    "analog_speed": {
+      "enabled": false,
+      "levels": 5,
+      "rezero_on_release": true
+    },
+    "up_commands": [
+      "Move_Forward",
+      "Forward"
+    ],
+    "up_default": "UP",
+    "down_commands": [
+      "Move_Backward",
+      "Backward"
+    ],
+    "down_default": "DOWN",
+    "left_commands": [
+      "Turn_Left",
+      "Left"
+    ],
+    "left_default": "LEFT",
+    "right_commands": [
+      "Turn_Right",
+      "Right"
+    ],
+    "right_default": "RIGHT"
+  },
+  "right_stick": {
+    "mode": "mouse",
+    "sensitivity": 18,
+    "curve": 2.0,
+    "deadzone": 0.12,
+    "invert_y": false
+  }
+}

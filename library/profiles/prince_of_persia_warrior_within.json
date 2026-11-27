@@ -1,0 +1,136 @@
+{
+  "id": "prince_of_persia_warrior_within",
+  "format": 2,
+  "status": "made with AI",
+  "updated": "2026-11-27",
+  "name": "Prince of Persia: Warrior Within",
+  "playstation_version": "PS2 (2004)",
+  "exe": [
+    "POP2.exe",
+    "PrinceOfPersia.exe"
+  ],
+  "steam_appid": "13500",
+  "wikidata": "Q743155",
+  "overlay_button": "ps",
+  "config_hints": [
+    "%PROGRAMDATA%\\POPWWPROFILES",
+    "Hardware.ini"
+  ],
+  "game_files": {
+    "folder_contains": [
+      "warrior",
+      "within"
+    ],
+    "text_folders": [
+      "system",
+      "System",
+      "Localization",
+      "localization"
+    ]
+  },
+  "_note": "Made automatically with AI from public sources. Keys are read from your own game files when the game starts. Maps the documented PC controls matching the PS2 layout; camera control is handled by the mouse.",
+  "sources": {
+    "strategywiki": "https://strategywiki.org/wiki/Prince_of_Persia:_Warrior_Within/Controls",
+    "pcgamingwiki": "https://www.pcgamingwiki.com/wiki/Prince_of_Persia:_Warrior_Within"
+  },
+  "credits": "Controls from StrategyWiki (CC BY-SA 4.0); facts from PCGamingWiki. Layout licence: CC BY-SA 4.0.",
+  "native_controller_support": true,
+  "buttons": {
+    "cross": {
+      "action": "Jump / Roll / Eject",
+      "commands": [
+        "Jump",
+        "Roll",
+        "Eject"
+      ],
+      "default_key": "SPACE"
+    },
+    "square": {
+      "action": "Attack",
+      "commands": [
+        "Attack",
+        "Primary Weapon",
+        "Slash"
+      ],
+      "default_key": "MOUSE_LEFT"
+    },
+    "triangle": {
+      "action": "Secondary weapon / Grab",
+      "commands": [
+        "Secondary weapon",
+        "Grab",
+        "Alternate Attack"
+      ],
+      "default_key": "E"
+    },
+    "r1": {
+      "action": "Wall run / Push/Pull / Swing / Drink / B",
+      "commands": [
+        "Special Action",
+        "Wall Run",
+        "Block",
+        "Action"
+      ],
+      "default_key": "MOUSE_RIGHT"
+    },
+    "l2": {
+      "action": "Landscape view",
+      "commands": [
+        "Landscape view",
+        "Panoramic View"
+      ],
+      "default_key": "Q"
+    },
+    "r2": {
+      "action": "First-person view",
+      "commands": [
+        "First-person view",
+        "Look Around"
+      ],
+      "default_key": "F"
+    },
+    "ps": {
+      "action": "Hold: show this button list",
+      "default_key": "NONE"
+    }
+  },
+  "left_stick": {
+    "mode": "keys",
+    "deadzone": 0.2,
+    "diagonal_threshold": 0.38,
+    "analog_speed": {
+      "enabled": false,
+      "levels": 5,
+      "rezero_on_release": true
+    },
+    "up_commands": [
+      "Forward",
+      "Move Forward"
+    ],
+    "up_default": "W",
+    "down_commands": [
+      "Backward",
+      "Move Backward"
+    ],
+    "down_default": "S",
+    "left_commands": [
+      "Left",
+      "Strafe Left",
+      "Turn Left"
+    ],
+    "left_default": "A",
+    "right_commands": [
+      "Right",
+      "Strafe Right",
+      "Turn Right"
+    ],
+    "right_default": "D"
+  },
+  "right_stick": {
+    "mode": "mouse",
+    "sensitivity": 18,
+    "curve": 2.0,
+    "deadzone": 0.12,
+    "invert_y": false
+  }
+}

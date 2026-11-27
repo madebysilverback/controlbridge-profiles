@@ -1,0 +1,107 @@
+{
+  "id": "unreal_tournament",
+  "format": 2,
+  "status": "read from a public controls table",
+  "updated": "2026-11-27",
+  "name": "Unreal Tournament",
+  "playstation_version": "PS2",
+  "exe": [
+    "UnrealTournament.exe"
+  ],
+  "steam_appid": "13240",
+  "wikidata": "Q627877",
+  "overlay_button": "ps",
+  "config_hints": [],
+  "game_files": {
+    "folder_contains": [
+      "unreal",
+      "tournament"
+    ],
+    "text_folders": [
+      "system",
+      "System",
+      "Localization",
+      "localization"
+    ]
+  },
+  "_note": "Made automatically from a public controls table. Keys are read from your own game files when the game starts. Read from the controls table on StrategyWiki.",
+  "sources": {
+    "strategywiki": "https://strategywiki.org/wiki/Unreal_Tournament/Controls",
+    "pcgamingwiki": "https://www.pcgamingwiki.com/wiki/Unreal_Tournament"
+  },
+  "credits": "Controls from StrategyWiki (CC BY-SA 4.0); facts from PCGamingWiki. Layout licence: CC BY-SA 4.0.",
+  "native_controller_support": true,
+  "buttons": {
+    "l2": {
+      "action": "desc Jump",
+      "commands": [
+        "DescJump"
+      ],
+      "default_key": "LCTRL"
+    },
+    "l1": {
+      "action": "desc Crouch",
+      "commands": [
+        "DescCrouch"
+      ],
+      "default_key": "C"
+    },
+    "l3": {
+      "action": "descCenter view",
+      "commands": [
+        "DesccenterView"
+      ],
+      "default_key": "END"
+    },
+    "cross": {
+      "action": "desc Walk",
+      "commands": [
+        "DescWalk"
+      ],
+      "default_key": "LSHIFT"
+    },
+    "r3": {
+      "action": "desc Auto-target",
+      "commands": [
+        "DescAutotarget"
+      ],
+      "default_key": "N"
+    },
+    "options": {
+      "action": "desc Pause menu",
+      "commands": [
+        "DescPauseMenu"
+      ],
+      "default_key": "ESCAPE"
+    },
+    "ps": {
+      "action": "Hold: show this button list",
+      "default_key": "NONE"
+    }
+  },
+  "left_stick": {
+    "mode": "keys",
+    "deadzone": 0.2,
+    "diagonal_threshold": 0.38,
+    "analog_speed": {
+      "enabled": false,
+      "levels": 5,
+      "rezero_on_release": true
+    },
+    "up_commands": [],
+    "up_default": "W",
+    "down_commands": [],
+    "down_default": "S",
+    "left_commands": [],
+    "left_default": "A",
+    "right_commands": [],
+    "right_default": "D"
+  },
+  "right_stick": {
+    "mode": "mouse",
+    "sensitivity": 18,
+    "curve": 2.0,
+    "deadzone": 0.12,
+    "invert_y": false
+  }
+}
