@@ -1,0 +1,181 @@
+{
+  "id": "silent_hill_3",
+  "format": 2,
+  "status": "made with AI",
+  "updated": "2026-11-28",
+  "name": "Silent Hill 3",
+  "playstation_version": "PS2",
+  "exe": [
+    "sh3.exe"
+  ],
+  "steam_appid": null,
+  "wikidata": "Q837338",
+  "overlay_button": "ps",
+  "config_hints": [
+    "savedata\\Key.ini"
+  ],
+  "game_files": {
+    "folder_contains": [
+      "hill",
+      "3"
+    ],
+    "text_folders": [
+      "system",
+      "System",
+      "Localization",
+      "localization"
+    ]
+  },
+  "_note": "Made automatically with AI from public sources. Keys are read from your own game files when the game starts. Follows the classic PS2 Type B controller layout for Silent Hill 3.",
+  "sources": {
+    "pcgamingwiki": "https://www.pcgamingwiki.com/wiki/Silent_Hill_3"
+  },
+  "credits": "Controls from StrategyWiki (CC BY-SA 4.0); facts from PCGamingWiki. Layout licence: CC BY-SA 4.0.",
+  "native_controller_support": true,
+  "buttons": {
+    "cross": {
+      "action": "Action",
+      "commands": [
+        "Action",
+        "Enter"
+      ],
+      "default_key": "SPACE",
+      "check": true
+    },
+    "circle": {
+      "action": "Light",
+      "commands": [
+        "Light",
+        "Cancel"
+      ],
+      "default_key": "L",
+      "check": true
+    },
+    "square": {
+      "action": "Dash",
+      "commands": [
+        "Dash"
+      ],
+      "default_key": "LSHIFT",
+      "check": true
+    },
+    "triangle": {
+      "action": "Map",
+      "commands": [
+        "Map"
+      ],
+      "default_key": "M",
+      "check": true
+    },
+    "l1": {
+      "action": "Strafe Left",
+      "commands": [
+        "Strafe Left",
+        "StrafeLeft"
+      ],
+      "default_key": "Q",
+      "check": true
+    },
+    "r1": {
+      "action": "Strafe Right",
+      "commands": [
+        "Strafe Right",
+        "StrafeRight"
+      ],
+      "default_key": "E",
+      "check": true
+    },
+    "l2": {
+      "action": "Search View",
+      "commands": [
+        "Search View",
+        "SearchView"
+      ],
+      "default_key": "V",
+      "check": true
+    },
+    "r2": {
+      "action": "Ready Weapon",
+      "commands": [
+        "Ready",
+        "Ready Weapon"
+      ],
+      "default_key": "LCTRL",
+      "check": true
+    },
+    "l3": {
+      "action": "Zoom",
+      "commands": [
+        "Zoom"
+      ],
+      "default_key": "Z",
+      "check": true
+    },
+    "r3": {
+      "action": "Supplies",
+      "commands": [
+        "Supplies"
+      ],
+      "default_key": "X",
+      "check": true
+    },
+    "create": {
+      "action": "Item Inventory",
+      "commands": [
+        "Item",
+        "Skip"
+      ],
+      "default_key": "TAB",
+      "check": true
+    },
+    "options": {
+      "action": "Pause",
+      "commands": [
+        "Pause"
+      ],
+      "default_key": "ESCAPE",
+      "check": true
+    },
+    "ps": {
+      "action": "Hold: show this button list",
+      "default_key": "NONE"
+    }
+  },
+  "left_stick": {
+    "mode": "keys",
+    "deadzone": 0.2,
+    "diagonal_threshold": 0.38,
+    "analog_speed": {
+      "enabled": false,
+      "levels": 5,
+      "rezero_on_release": true
+    },
+    "up_commands": [
+      "Forward",
+      "Move Forward"
+    ],
+    "up_default": "W",
+    "down_commands": [
+      "Backward",
+      "Move Backward"
+    ],
+    "down_default": "S",
+    "left_commands": [
+      "Turn Left",
+      "Left"
+    ],
+    "left_default": "A",
+    "right_commands": [
+      "Turn Right",
+      "Right"
+    ],
+    "right_default": "D"
+  },
+  "right_stick": {
+    "mode": "mouse",
+    "sensitivity": 18,
+    "curve": 2.0,
+    "deadzone": 0.12,
+    "invert_y": false
+  }
+}

@@ -1,7 +1,7 @@
 {
  "version": 1,
- "updated": "2026-11-28T01:54:38Z",
- "count": 15,
+ "updated": "2026-11-28T05:11:52Z",
+ "count": 16,
  "profiles": [
   {
    "id": "bully",
@@ -150,6 +150,18 @@
    "steam_appid": "4249120",
    "status": "made with AI",
    "updated": "2026-11-26"
+  },
+  {
+   "id": "silent_hill_3",
+   "name": "Silent Hill 3",
+   "file": "profiles/silent_hill_3.json",
+   "sha256": "84bf29f61fc8fc35b1801693bdc97ef4b2418524c562fce40d79b633cbe6336b",
+   "exe": [
+    "sh3.exe"
+   ],
+   "steam_appid": null,
+   "status": "made with AI",
+   "updated": "2026-11-28"
   },
   {
    "id": "splinter_cell_pandora_tomorrow",
